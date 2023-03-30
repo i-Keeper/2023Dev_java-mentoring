@@ -14,5 +14,8 @@ public class Calculate {
     public int Sub(int n,int m) {
         return n-m;
     }
+    public int Mul(int n,int m){
+        return n*m;
+    }
 
 }
