@@ -11,4 +11,8 @@ public class Calculate {
     public int Add(int n,int m){
         return n+m;
     }
+    public int Sub(int n,int m) {
+        return n-m;
+    }
+
 }
