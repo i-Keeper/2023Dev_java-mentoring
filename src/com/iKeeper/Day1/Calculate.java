@@ -17,5 +17,7 @@ public class Calculate {
     public int Mul(int n,int m){
         return n*m;
     }
-
+    public int Div(int n,int m){
+        return n/m;
+    }
 }
