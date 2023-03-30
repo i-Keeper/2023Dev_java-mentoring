@@ -8,16 +8,16 @@ public class Calculate {
         this.n=n;
         this.m=m;
     }
-    public int Add(int n,int m){
+    public int Add(){
         return n+m;
     }
-    public int Sub(int n,int m) {
+    public int Sub() {
         return n-m;
     }
-    public int Mul(int n,int m){
+    public int Mul(){
         return n*m;
     }
-    public int Div(int n,int m){
+    public int Div(){
         return n/m;
     }
 }
