@@ -5,11 +5,11 @@ import java.io.*;
 public class Problem1 {
     public static void main(String []args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        String str = bf.readLine();
-        StringTokenizer st = new StringTokenizer(str," ");
-        int n =Integer.parseInt(st.nextToken());
-        int m =Integer.parseInt(st.nextToken());
-        int temp;
+
+        int n =Integer.parseInt(bf.readLine());
+        int c = (char)bf.read();
+        int m =Integer.parseInt(bf.readLine());
+        int temp=0;
         Calculate run = new Calculate();
     }
 }
