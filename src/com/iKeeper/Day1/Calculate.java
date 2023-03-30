@@ -2,15 +2,13 @@ package com.iKeeper.Day1;
 import java.util.*;
 import java.io.*;
 public class Calculate {
-int n= Integer.parseInt(st.nextToken());
-int m= Integer.parseInt(st.nextToken());
-int sign = br.next().CharAt();
-    //생성자 메소드
-    void Add(){};
-    void Sub(){};
-    void Mul(){};
-    void Div(){};
-    void result(){};
-    public Calculate(){};
-    public Calculate(String){};
+    private int n;
+    private int m;
+    Calculate(int n,int m){
+        this.n=n;
+        this.m=m;
+    }
+    public int Add(int n,int m){
+        return n+m;
+    }
 }
