@@ -9,18 +9,23 @@ public class Problem1 {
         int n =Integer.parseInt(bf.readLine());
         int c = (char)bf.read();
         int m =Integer.parseInt(bf.readLine());
-        int temp=0;
         Calculate myCalculate = new Calculate();
 
         switch(c){
             case'+':
-                temp= Calculate.Add(n,m);
+                Calculate.Add(n,m);
                 break;
             case'-':
-                temp= Calculate.Sub(n,m);
+                Calculate.Sub(n,m);
                 break;
             case'*':
-                temp
+                Calculate.Mul(n,m);
+                break;
+            case'/':
+                Calculate.Div(n,m);
+                break;
+            default:
+                System.out.println("올바른 연산이 아닙니다.");
         }
     }
 }
