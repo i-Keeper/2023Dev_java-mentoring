@@ -10,6 +10,17 @@ public class Problem1 {
         int c = (char)bf.read();
         int m =Integer.parseInt(bf.readLine());
         int temp=0;
-        Calculate run = new Calculate();
+        Calculate myCalculate = new Calculate();
+
+        switch(c){
+            case'+':
+                temp= Calculate.Add(n,m);
+                break;
+            case'-':
+                temp= Calculate.Sub(n,m);
+                break;
+            case'*':
+                temp
+        }
     }
 }
