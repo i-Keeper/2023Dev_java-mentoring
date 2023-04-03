@@ -20,7 +20,5 @@ public class User_Status {
 
     public User_Status() {}
 
-    int Add_Damage(int attack){
-        return attack+=(int)((Math.random()*91)+10);
-    }
+
 }
