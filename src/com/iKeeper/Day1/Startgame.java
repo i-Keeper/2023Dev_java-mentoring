@@ -25,16 +25,13 @@ class Startgame {
         Playing playing = new Playing(myCharacter, enemyCharacter);
         System.out.println("게임을 시작합니다");
         playing.Attack_turn(1); //시작전 본인이름, 상대이름 설정 및 랜덤 체력 공격력 설정 후 출력
-        System.out.println(myCharacter.health);
-
-        System.out.println("다시 게임을 시작 하시겠습니까?(1 : 재시작, 2 : 종료)");
-
 
         if (myCharacter.health >= 0) {
             System.out.println(enemyCharacter.name + "의 승리!");
         } else if (enemyCharacter.health >= 0) {
             System.out.println(myCharacter + "의 승리!");
         }
+        System.out.println("다시 게임을 시작 하시겠습니까?(1 : 재시작, 2 : 종료)");
     }
 
 }
