@@ -17,8 +17,4 @@ public class User_Status {
         this.health=health;
         this.attack=attack;
     }
-
-    public User_Status() {}
-
-
 }
