@@ -11,6 +11,7 @@ class Input_money{
     public Input_money() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int insert_money = Integer.parseInt(br.readLine());
+        System.out.println(insert_money+"원이 입력 되었습니다.");
 
     }
 }
